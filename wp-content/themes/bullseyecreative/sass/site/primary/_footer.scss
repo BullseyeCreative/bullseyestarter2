@@ -1,0 +1,15 @@
+.footer-menu {
+  & li a {
+    padding-left: 0;
+    padding-right: 0;
+    @include breakpoint(medium) {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+  }
+  &.copyright-menu {
+    li {
+      padding: 0.4rem 0;
+    }
+  }
+}

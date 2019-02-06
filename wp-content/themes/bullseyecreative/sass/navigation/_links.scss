@@ -1,0 +1,22 @@
+a {
+
+	&:visited {
+
+	}
+	&:hover,
+	&:focus,
+	&:active {
+
+	}
+	&:focus {
+
+	}
+	&:hover,
+	&:active {
+
+	}
+}
+
+.no-cssgradients .header {
+  background: url("images/glossybutton.png");
+}

@@ -1,0 +1,149 @@
+/*!
+Theme Name: Custom WP: By Bullseye Creative
+Theme URI: http://underscores.me/
+Author: Bullseye Creative
+Author URI: http://bullseyecreative.net
+Description: A custom WordPress theme by Bullseye Creative
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: bc
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Custom WP: By Bullseye Creative is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+
+
+@import "foundation";
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+// @import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+// @import "forms/forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+// @import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+// @import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+//WooCommerce styles override - Uncomment when using WooCommerce
+
+///**
+// * WooCommerce color variables
+// */
+//$woocommerce__color-error: #e2401c;
+//$woocommerce__color-success: #0f834d;
+//$woocommerce__color-info: #3D9CD2;
+//
+///**
+// * Imports
+// */
+//@import "variables-site/variables-site";
+//@import "mixins/mixins-master";
+//
+///**
+// * Shop tables
+// */
+//@import "shop/tables";
+//
+///**
+// * Products
+// */
+//@import "shop/products";
+//
+///**
+// * Single product
+// */
+//@import "shop/single-product";
+//
+///**
+// * Checkout
+// */
+//@import "shop/checkout";
+//
+///**
+// * General WooCommerce components
+// */
+//@import "shop/components";
+//
+///**
+// * WooCommerce widgets
+// */
+//@import "shop/widgets";
